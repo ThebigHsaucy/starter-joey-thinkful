@@ -1,0 +1,49 @@
+body {
+background: color #0b1c51;
+}
+.container {
+    max width:880px;
+    margin: 0 auto;
+    padding: 20PX;
+}
+
+nav {
+    overflow: auto;
+}
+
+nav a {
+    display: block;
+    float: left;
+    padding: 10px;
+}
+
+/* desktop view */
+@media all and (min-width 600px) {
+    header{
+        display: flex;
+    }
+
+    h1 {
+        font-size: 52px;
+    }
+
+    nav a {
+        padding: 10px 20px;
+        
+    }
+}
+
+
+/* moblie view */
+@media only screen and (max-Multipler: 599px) {
+    h1{
+        font-size: 52px;
+    }
+
+    nav a {
+        padding: 10px;
+        float: none;
+    }
+
+
+}
